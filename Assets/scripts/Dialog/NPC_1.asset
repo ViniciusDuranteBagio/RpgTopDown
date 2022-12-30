@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef52fcc111c4254ab5923fa82581f50, type: 3}
+  m_Name: NPC_1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 2398741671038765661, guid: c2d4bd42b47468a4f879a409e289dac2, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: NPCName
+    profile: {fileID: 21300000, guid: 3f9162ec48e4ae14a98bc3c505f19a30, type: 3}
+    sentence:
+      portuguese: "Ol\xE1 Heroi, tudo bem ?"
+      english: Hello Hero, how are you ?
+      spanish: "Hola Heroi, como est\xE1s ?"
+  - actorName: PlayerName
+    profile: {fileID: 21300000, guid: aed2854ce2751c943bb5acc12bb85667, type: 3}
+    sentence:
+      portuguese: "Oi Mo\xE7a tudo  e com voc\xEA?"
+      english: 'Hello Woman, yes and with you ? '
+      spanish: Hola mocita, si e com ustede ?
+  - actorName: NPCName
+    profile: {fileID: 21300000, guid: 3f9162ec48e4ae14a98bc3c505f19a30, type: 3}
+    sentence:
+      portuguese: "Tamb\xE9m, o que voc\xEA deseja comprar ?"
+      english: Me too, do you want to buy something ?
+      spanish: Tambien, queries comprar algo ?
